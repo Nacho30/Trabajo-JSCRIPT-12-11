@@ -129,25 +129,3 @@ for (var i = 0; i < precios.length; i++)
     else {
         console.log('Producto de lujo $'+ precios[i])
     }
-
-    //MAS EJERCICIOS://
-    //Clasificación de Temperaturas:
-    //Crea un array llamado temperaturas con valores numéricos que representan temperaturas (en grados Celsius).
-    //Usa un bucle for para recorrer cada temperatura.
-    //Clasifica cada temperatura:
-    //Menor a 0: "Hace frío"
-    //Entre 0 y 25: "Temperatura agradable"
-    //Mayor a 25: "Hace calor"
-
-    // Solución:
-    var temperaturas = [0,-100,35,65,45,36,15,10,8]
-    for (var i = 0; i< temperaturas.length; i++)
-        if(temperaturas [i]< 0){
-            console.log("Temperatura= "+temperaturas[i]+"° Hace frio")
-        }
-        else if(temperaturas[i]>= 0 && temperaturas[i] <= 25 ){
-            console.log("Temperatura= "+temperaturas[i]+"° Temperatura agradable")
-        }
-        else {
-            console.log("Temperatura= "+temperaturas[i]+"° Hace calor")
-        }
